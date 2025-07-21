@@ -1,16 +1,14 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
+
 import Dashboard from "./Components/Dashboard";
-import Home from './Components/Home';
-import Todo from './Components/Todo';
+import AppOne from './Components/AppOne';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route index element={<Dashboard/>} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/todo" element={<Todo />} />
-        {/* <Route path="*" element={<NotFound />} /> */}
+        <Route path="/todo" element={<AppOne />} />
       </Routes>
     </BrowserRouter>
   );

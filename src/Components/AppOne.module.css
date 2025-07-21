@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /*Layout*/
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+  height: auto;
+  width: auto;
+
+  /*Text*/
+  font-size: medium;
+  text-align: center;
+
+  /*Apperance*/
+  background-color: rgb(184, 193, 200);
+  border-radius: 15px;
+  border-width: 2px;
+}
+
+.header {
+  padding: 20px 0 20px 0;
+
+  font-size: x-large;
+}
+
+.section_nav {
+  padding: 10px;
+  margin: 10px 30px 10px 30px;
+
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+
+.section_nav input[type=text], select {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 70lvw;
+  height: 45px;
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.section_nav input[type=submit] {
+  padding: 14px 20px;
+  margin: 8px 15px;
+
+  color: white;
+  background-color: #2b66e6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.section_nav input[type=submit]:hover {
+  background-color: #004494;
+}
+
+.section_list {
+  padding: 20px;
+  margin: 10px 30px 20px 30px;
+
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+
+.item_value {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px 20px;
+  width: 75%;
+  text-align: start;
+
+  background-color: #d3d7da;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.section_list input[type=text] {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 8px 0;
+  width: 75%;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 15px;
+  margin: 1px 5px;
+
+  color: white;
+  background-color: #2b66e6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+  background-color: #0056b3;
+}
+
+.icon-e {
+  margin-left: 20px;
+  position: relative;
+}
+
+.icon-e::before {
+  content: "";
+  background-image: url("../../public/edit_file_icon.png");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+}
