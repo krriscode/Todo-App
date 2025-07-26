@@ -23,14 +23,14 @@
 }
 
 .header {
-  padding: 20px 0 15px 0;
+  padding: 20px 0 20px 0;
 
   font-size: x-large;
 }
 
 .section_nav {
   padding: 10px;
-  margin: 10px 30px 20px 30px;
+  margin: 10px 30px 10px 30px;
 
   background-color: #f2f2f2;
   border-radius: 15px;
@@ -48,7 +48,7 @@
   border-radius: 4px;
 }
 
-.section_nav input[type=submit] {
+.section_nav button{
   padding: 14px 20px;
   margin: 8px 15px;
 
@@ -108,22 +108,4 @@
 
 .btn:hover{
   background-color: #0056b3;
-}
-
-.icon-e {
-  margin-left: 20px;
-  position: relative;
-}
-
-.icon-e::before {
-  content: "";
-  background-image: url("../../public/edit_file_icon.png");
-  background-size: 16px 16px;
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-  position: absolute;
-  left: 4px;
-  top: 50%;
-  transform: translateY(-50%);
 }
